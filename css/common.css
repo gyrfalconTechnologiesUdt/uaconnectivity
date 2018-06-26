@@ -1,0 +1,68 @@
+body,html{margin 0, padding 0}
+body{
+	background-color: #e7e7e7;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center;
+	font-family: open sans semi-bold;
+}
+/*login-container start*/
+.nov-container{ width: 360px; margin: 0 auto;}
+.image{width: 100px; height: 50px;}
+.logoimg{text-align: center; margin-top: 30px;}
+.heading{margin-top: -50px; font-weight: bold; font-size: 18px;}
+.socialMedia{margin-top: 70px; font-weight: bold; font-size: 14px;}
+.icon.social {margin: 5px; float:left;  background: #b40707;color: #fff; width: 7%;text-align: center;border-radius: 50px; height: 25px; }
+.or{margin: 55px auto;text-align: center;}
+button {color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 18px; margin-left: 65px; border: none;}
+/* email start*/
+.username{position: relative; margin-top: 50px;}
+.username label{color: rgb(188,188,188);position: absolute; top: 0px; transition: 0.5s}
+.userNameLbl{top: -35px !important; font-size: 0.80em !important;}
+.username input[type=text]:focus:not([readonly])+label{ color: #b40707; }
+.username input[type=text]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid rgb(188,188,188);}
+.fa{position: relative; color: rgb(188,188,188); }
+.fa fa-envelope prefix grey-text label{position: absolute;}
+.emailIcon{top: -35px !important; font-size: 0.80em !important; }
+.bottomline{width: 100%; display: block; line-height: 1.5; color: rgb(188,188,188); }
+/* email end*/
+
+/* password start*/
+.password{position: relative; margin-top: 50px;}
+.password label{color: rgb(188,188,188);position: absolute; top: 0px; transition: 0.5s}
+.passwordLbl{top: -35px !important; font-size: 0.80em !important;}
+.password input[type=password]:focus:not([readonly])+label{ color: #b40707; }
+.password input[type=password]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid rgb(188,188,188);}
+.fa{position: relative;}
+.fa fa-lock prefix grey-text label{position: absolute; transition: 0.5s}
+.passwordIcon{top: -35px !important; font-size: 0.80em !important;}
+.forgotpwd{color: #b40707; margin-left: 245px;}
+/*password end*/
+
+/*footer start*/
+.footer{margin-top: -43px; margin-left: 80px;}
+.signup{margin-left: 155px; margin-top: -25px; color: #b40707;}
+/*foooter end*/
+
+
+/* register page start*/
+.confirmpassword{position: relative; margin-top: 50px;}
+.confirmpassword label{color: rgb(188,188,188);position: absolute; top: 0px; transition: 0.5s}
+.cPasswordLbl{top: -35px !important; font-size: 0.80em !important;}
+.confirmpassword input[type=password]:focus:not([readonly])+label{ color: #b40707; }
+.confirmpassword input[type=password]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid #b40707;}
+.emailid{position: relative; margin-top: 50px;}
+.emailid label{color: rgb(188,188,188);position: absolute; top: 0px; transition: 0.5s}
+.emailIdLbl{top: -35px !important; font-size: 0.80em !important;}
+.emailid input[type=text]:focus:not([readonly])+label{ color: #b40707; }
+.emailid input[type=text]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid #b40707;}
+.contactno{position: relative; margin-top: 50px;}
+.contactno label{color: rgb(188,188,188);position: absolute; top: 0px;transition: 0.5s}
+.contNoLbl{top: -35px !important; font-size: 0.80em !important;}
+.contactno input[type=text]:focus:not([readonly])+label{ color: #b40707; }
+.contactno input[type=text]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid #b40707;}
+.register {color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 18px;}
+
+
+
+
