@@ -19,9 +19,10 @@ $("#emailIcon").addClass("emailIcon");
 
 });
 $("#userNameInput input").blur(function(e){
-	
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
 $("#emailIcon").removeClass("emailIcon");
-
+	}
 });
 $("#passwordinput input").focus(function(e){	
 $("#passwordLbl").addClass("passwordLbl");
@@ -41,9 +42,10 @@ $("#passwordIcon").addClass("passwordIcon");
 
 });
 $("#passwordinput input").blur(function(e){
-	
+	let inputVal = e.currentTarget.value;
+	if(inputVal === ''){
 $("#passwordIcon").removeClass("passwordIcon");
-
+	}
 });
 
 // ua sign up page start

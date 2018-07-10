@@ -10,20 +10,20 @@ body{
 .ua-container{ width: 360px; margin: 0 auto;}
 .image{width: 100px; height: 50px;}
 .logoimg{text-align: center; margin-top: 30px;}
-.heading{margin-top: 30px; font-weight: bold; font-size: 18px;}
-.socialMedia{margin-top: 70px; font-weight: bold; font-size: 14px;}
-.icon.social {margin: 5px; float:left;  background: #b40707;color: #fff; width: 7%;text-align: center;border-radius: 50px; height: 25px; }
-.or{margin: 55px auto;text-align: center;}
-button {color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 18px; margin-left: 65px; border: none;}
+.heading{margin-top: 30px; font-weight: bold; font-size: 1.2em;}
+.socialMedia{margin-top: 70px; font-weight: bold; font-size: 1.2em;}
+.socialMediaicons{margin-top: 20px; margin-left: 75px; text-align: center;}
+.social	{float: left; background: #b40707; color: #fff; width: 13%; text-align: center; border-radius: 50px; height: 38px; padding-top: 8px; margin-left: 25px;}
+.or{margin-top: 71px; margin-left: 171px;}
+button {color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; margin-left: 65px; border: none;}
 /* email start*/
 .username{position: relative; margin-top: 30px;}
 .username label{color: rgb(188,188,188);position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .userNameLbl{top: -25px !important; font-size: 0.80em !important; color: #000 !important;}
 input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !important;}
 .username input[type=text]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid rgb(188,188,188); color: #000;}
-.fa{position: relative; color: rgb(188,188,188); }
-.fa fa-envelope prefix grey-text label{position: absolute;}
-.emailIcon{top: -35px !important; font-size: 0.80em !important; }
+.fa{color: rgb(188,188,188); position: relative; top: 0px; transition: 0.5s; pointer-events: none; }
+.emailIcon{top: -25px !important; font-size: 0.80em !important; color: #000 !important; transition: 0.5s;}
 .bottomline{width: 100%; display: block; line-height: 1.5; color: rgb(188,188,188); }
 /* email end*/
 
@@ -33,15 +33,14 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .passwordLbl{top: -25px !important; font-size: 0.80em !important; color: #000 !important;}
 .password input[type=password]:focus:not([readonly])+label{ color: #b40707; }
 .password input[type=password]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid rgb(188,188,188); color: #000;}
-.fa{position: relative;}
-.fa fa-lock prefix grey-text label{position: absolute; transition: 0.5s}
-.passwordIcon{top: -35px !important; font-size: 0.80em !important;}
+.fa{color: rgb(188,188,188); position: relative; top: 0px; transition: 0.5s; pointer-events: none; }
+.passwordIcon{top: -25px !important; font-size: 0.80em !important; color: #000 !important; transition: 0.5s; }
 .forgotpwd{color: #b40707; margin-left: 245px;}
 /*password end*/
 
 /*footer start*/
-.footer{margin-top: -43px; margin-left: 80px;}
-.signup{margin-left: 155px; margin-top: -25px; color: #b40707;}
+.footer{margin-left: 93px;}
+.signup{color: #b40707;}
 /*foooter end*/
 
 
