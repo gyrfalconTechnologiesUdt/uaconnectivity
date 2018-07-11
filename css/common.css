@@ -8,7 +8,7 @@ body{
 }
 /*login-container start*/
 .ua-container{ width: 360px; margin: 0 auto;}
-.image{width: 100px; height: 50px;}
+.image{height: 50px;}
 .logoimg{text-align: center; margin-top: 30px;}
 .heading{margin-top: 30px; font-weight: bold; font-size: 1.2em;}
 .socialMedia{margin-top: 70px; font-weight: bold; font-size: 1.2em;}
@@ -25,7 +25,7 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .username input[type=text]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid rgb(188,188,188); color: #000;}
 .fa{color: rgb(188,188,188); position: relative; top: 0px; transition: 0.5s; pointer-events: none; }
 .emailIcon{top: -25px !important; font-size: 0.80em !important; color: #000 !important; transition: 0.5s;}
-.bottomline{width: 100%; display: block; line-height: 1.5; color: rgb(188,188,188); }
+.bottomline{width: 100%; line-height: 1.5; color: rgb(188,188,188); }
 /* email end*/
 
 /* password start*/
@@ -44,6 +44,16 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .signup{color: #b40707; cursor: pointer;}
 /*foooter end*/
 
+/*reset password start*/
+.mail {position: relative; margin-top: 40px;}
+.mailLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
+.mail  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
+.mail input[type=text]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
+.nxtbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #b40707;   line-height: 2.2em;   color: #fff;
+    border-radius: 7px; border: none; cursor: pointer;}
+.logo{height: 50px;}
+.b-Line{width: 100%;}
+/*rest password end*/
 
 /* register page start*/
 .cPasswordLbl{top: -25px !important; font-size: 0.80em !important; color: #000 !important;}
@@ -89,3 +99,15 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .joinbox{float: right; padding: 15px;}
 .join{height: 40px; border: 1px solid;  margin-right: 130px; background: #bb2121; width: 100px; text-align: center; padding: 8px; color: #fff;}
 /* home page end */
+
+/* services page start*/
+.uaimage{margin-top: 15px; margin-left: 15px;}
+.text{text-align: center; margin-top: 15px; font-size: 1.2em;}
+.conimg{height: 40px; float: right; margin-right: 15px;}
+.list{width: 250px; height: 30px; background-color: #e7e7e7;}
+.dropdown{text-align: center; margin-top: 15px;}
+.from{width: 134px; height: 50px; border: 1px solid;}
+.to{width: 134px; height: 50px; border: 1px solid;}
+/* service page End*/
+
+

@@ -69,7 +69,7 @@ $("#passwordIcon").removeClass("passwordIcon");
 
 //ua login page End
 
-
+// reset password start
 $("#mailInpt input").focus(function(e){	
 $("#mailLbl").addClass("mailLbl");
 });
@@ -81,6 +81,8 @@ $("#mailInpt input").blur(function(e){
 		
 	}
 });	
+
+// reset password End
 
 // ua sign up page start
 $("#contactNoinput input").focus(function(e){	
@@ -119,6 +121,17 @@ $("#emailIdinput input").blur(function(e){
 		
 	}
 });	
-
+$("#listId1").click(function () {
+    $("#menu1").hide();
+});
+$("#listId2").click(function () {
+    $("#menu2").hide();
+});
+$("#listId3").click(function () {
+    $("#menu3").hide();
+});
+$("#listId4").click(function () {
+    $("#menu4").hide();
+});
 
 });
