@@ -98,6 +98,10 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .help{padding: 23px;  float: right; }
 .joinbox{float: right; padding: 15px;}
 .join{height: 40px; border: 1px solid;  margin-right: 130px; background: #bb2121; width: 100px; text-align: center; padding: 8px; color: #fff;}
+.banner{position: relative;}
+.bannerimage{width: 100%; height: 100vh;}
+.bannertxt{font-size: 5em; color: #fff; position: absolute; top: 200px; left: 15%;}
+.bannerbottomtxt{color: #fff; position: absolute; top: 515px; left: 28%; font-size: 2em;}
 /* home page end */
 
 /* services page start*/
@@ -109,5 +113,4 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .from{width: 134px; height: 50px; border: 1px solid;}
 .to{width: 134px; height: 50px; border: 1px solid;}
 /* service page End*/
-
 
