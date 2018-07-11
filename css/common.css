@@ -76,3 +76,16 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .logo{width: 100px; height: 50px;}
 .b-Line{width: 100%;}
 /*rest password end*/
+
+/* home page start */
+.header{background: #fff; height: 70px; max-width: 100%;}
+.leftside-container{float: left; max-width: 60%;}
+.sideimg{padding: 10px; float: left;}
+.logoimage{ height: 50px; margin-left: 40px; }
+.home{font-size: 1em; color: #bb2121; float: left; padding: 23px;}
+.contact{font-size: 1em; float: left; padding: 23px;}
+.rightside-container{max-width: 40%; float: right;}
+.help{padding: 23px;  float: right; }
+.joinbox{float: right; padding: 15px;}
+.join{height: 40px; border: 1px solid;  margin-right: 130px; background: #bb2121; width: 100px; text-align: center; padding: 8px; color: #fff;}
+/* home page end */
