@@ -15,7 +15,7 @@ body{
 .socialMediaicons{margin-top: 20px; margin-left: 75px; text-align: center;}
 .social	{float: left; background: #b40707; color: #fff; width: 13%; text-align: center; border-radius: 50px; height: 38px; padding-top: 8px; margin-left: 25px;}
 .or{margin-top: 71px; margin-left: 171px;}
-button {color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; margin-left: 65px; border: none; cursor: pointer;}
+.login{color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; margin-left: 65px; border: none; cursor: pointer;}
 
 /* email start*/
 .username{position: relative; margin-top: 30px;}
@@ -126,7 +126,15 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .conimg{height: 40px; float: right; margin-right: 15px;}
 .list{width: 250px; height: 30px; background-color: #e7e7e7;}
 .dropdown{text-align: center; margin-top: 15px;}
-.from{width: 134px; height: 50px; border: 1px solid;}
-.to{width: 134px; height: 50px; border: 1px solid;}
+.box1{width: 118px; float: left; height: 50px; border: 1px solid; margin-left: 558px; margin-top: 15px;}
+.box2{width: 118px; height: 50px; border: 1px solid; margin-left: 688px; margin-top: 15px;}
+.button{text-align: center;}
+.confirmbtn{color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 15px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; border: none; cursor: pointer;}
+.popup{width: 38%; height: 200px; background-color: #fff; z-index: 999; border: 1px solid #00000069; position: fixed; left: 32%; right: 10%; top: 220px; text-align: center; box-shadow: 2px 2px 2px 2px #564a4a91;}
+.msg{text-align:center; padding-top: 55px;}
+.ok{text-align: center; width: 50px; height: 40px; cursor: pointer; background:#b40707; line-height: 2.6em; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}
+.close{padding: 10px;}
+.text{margin-top: 15px; font-size: 1.2em;}
+.overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); cursor: pointer;}
 /* service page End*/
 
