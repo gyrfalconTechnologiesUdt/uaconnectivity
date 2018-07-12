@@ -116,7 +116,8 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
     margin-top: 25px;}
 .bottom-containerright{width: 30%; float: right;}
 .aboutimg{  width: 200px;  margin-left: 50px;}
-.footerimage{position: absolute; left: 0;  top: 0; width: 100%; height: 100%; background-color: rgba(20,20,20, 0.9);}
+.ua-footer{}
+.footerimage{background-attachment: fixed;}
 /* home page end */
 
 /* services page start*/
