@@ -113,11 +113,15 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .bottom-containerleft{width: 70%; height: 50px; background-color: #fff;}
 .b-txt{font-size: 2em;  margin-left: 142px;}
 .read{color: #fff; font-family: open sans semi-bold; background-color: #b40707; width:150px; height: 40px; line-height: 2.2em; text-align: center; font-size: 18px; margin-left: 450px;
-    margin-top: 25px;}
+    margin-top: 25px; cursor: pointer;}
 .bottom-containerright{width: 30%; float: right;}
 .aboutimg{  width: 200px;  margin-left: 50px;}
-.ua-footer{}
-.footerimage{background-attachment: fixed;}
+.ua-footer{position: relative;}
+.footerimage{background-attachment: fixed; height: 600px; width: 100%; }
+.overlay{position: absolute; left: 0; top: 365px; width: 100%;  height: 600px; background-color: rgba(20,20,20, 0.9);}
+.row{margin-left: 40px;}
+.footer-container{position: absolute; top: 380px;}
+.b-logo-img{ }
 /* home page end */
 
 /* services page start*/
