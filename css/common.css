@@ -119,9 +119,15 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .ua-footer{position: relative;}
 .footerimage{background-attachment: fixed; height: 600px; width: 100%; }
 .overlay{position: absolute; left: 0; top: 365px; width: 100%;  height: 600px; background-color: rgba(20,20,20, 0.9);}
-.row{margin-left: 40px;}
-.footer-container{position: absolute; top: 380px;}
+.footer-container{position: absolute; top: 380px; margin-left: 40px; width: 33.3333%;}
 .b-logo-img{ }
+.firstline{color: #777;line-height: 30px; margin: 0 0 15px; padding-top: 20px; padding-bottom: 20px; font-size: 1.2em;}
+.highlight{color: #c00017; }
+.adress-area,.mail-area, .cl-area{color: #777;line-height: 30px; margin: 0 0 15px;  font-size: 1.2em;}
+.color{color: #fff;}
+ul, li { padding: 0; margin: 0; list-style-type: none;}
+ul.social-icons li {color: #fff; padding-top: 30px;  margin-right: 20px; display: inline-block;}	
+.copyright{border-top: 1px solid; padding-top: 20px; margin-top: 30px; padding-bottom: 10px;}
 /* home page end */
 
 /* services page start*/
