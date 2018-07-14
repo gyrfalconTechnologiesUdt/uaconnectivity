@@ -19,12 +19,50 @@
 				<div class="home1"><div class="homelink">HOME</div></div>
 				<div class="contact1"><div class="contactlink">CONTACT</div></div>
 			</div>
+			
 			<div class="rightside-container">
+			<div id="mySidenav" class="sidenav">
+			<div class="box1">
+				<div class="closebtn" onclick="closeNav()">&times;</div>
+			</div>
+			<div class="headerbox">UA Connectivity</div>
+			<div class="ua-list">	
+				<li><div id="">Home</div></li>
+				<li><div id="">About</div></li>
+				<li><div id="">Overview</div></li>
+				<li><div id="">How its work</div></li>
+				<li><div id="">services</div></li>
+				<li><div id="">Contact us</div></li>
+			</div>
+			<div class="followus">Follow us</div>
+			<div class="menu>"
+				<ul class="ua-social-icons">
+					<li><i class="fa fa-facebook" href=""></i></li>
+					<li><i class="fa fa-twitter" href=""></i></li>
+					<li><i class="fa fa-google" href=""></i></li>
+					<li><i class="fa fa-linkedin" href=""></i></li>
+					<li><i class="fa fa-flickr" href=""></i></li>
+					<li><i class="fa  fa-rss" href=""></i></li>	
+				</ul>
+			</div>	
+				
+		</div>
+		<span class="navstyle" onclick="openNav()">&#9776; </span>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "350px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+			</script>
 				<div class="joinbox">
 					<div class="join">JOIN US</div>
 				</div>
 				<div class="help"><div class="hlplink">HELP</div></div>
 			</div>	
+			
 		</div>
 		<div class ="bannerimg">
 			<img src="img/contact-bg.jpg" class ="conimg">
@@ -36,7 +74,7 @@
 				<input type="text" class="fieldbox" placeholder="Email">
 				<input type="text" class="fieldbox" placeholder="phno">
 				<input type="text" class="msgbox" placeholder="Message">
-				<div class ="send">Send</div>
+				<div class ="send" id="sendId">Send</div>
 		    </div>
 			<div class="rightlist">
 				<img src="img/map.png" class="map">
@@ -49,6 +87,45 @@
 				<div class="call">Give as a call</div>
 				<div class="callno">(+91)9715645558</div>
 			</div>
+		</div>
+		<div class ="popup" id="msgId1">
+			<img src="img/close.png" class="close" id="CloseId1">
+			<div class ="msg">
+				<div class>Congratulations</div>
+				<div class="text">Your Message Saved Successfully</div>
+			</div>
+			<div class ="ok" id ="okId1">Ok</div>
+		</div>
+		<div class="ua-footer">
+			<img src= "img/footer.jpg." class="footerimage">
+			<div class="overlay2"></div>
+				<div class="footer-content">
+					<img src= "img/logo_white.png" class="b-logo-img">
+					<div class="firstline">We are providing all kind of services with outstanding quality on right time.</div>
+					<div class="adress-area">
+						<i class="fa fa-search highlight"></i>
+						Address: <span class="color">3B2,Aishwarya Nagar, 2nd Street, R.V Complex, Udumalpet-642126</span>
+					</div>
+					<div class="mail-area">
+						<i class="fa fa-envelope highlight"></i>
+						E-mail: <span class="color">info@uaconnectivity.com</span>
+					</div>
+					<div class="cl-area">
+						<i class="fa fa-phone highlight"></i>
+						Mobile: <span class="color">+91 9715645558</span>
+					</div>
+					<ul class="social-icons">
+						
+						<li><span class="color"><i class="fa fa-facebook" href=""></i></span></li>
+						<li><i class="fa fa-twitter" href=""></i></li>
+						<li><i class="fa fa-google" href=""></i></li>
+						<li><i class="fa fa-linkedin" href=""></i></li>
+						<li><i class="fa fa-flickr" href=""></i></li>
+						<li><i class="fa  fa-rss" href=""></i></li>	
+					</ul>
+				</div>
+				<div class="copyright"></div>	
+		</div>	
 		</div>
 	</body>
 	</html>

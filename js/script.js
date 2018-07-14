@@ -160,5 +160,19 @@ $("#okId").click(function () {
 $("#CloseId").click(function () {
     $("#msgId").hide();
 });
+
 //service page End
+
+//contact page start
+$("#msgId1").hide();
+$("#sendId").click(function () {
+    $("#msgId1").show();
+});
+$("#okId1").click(function () {
+    $("#msgId1").hide();
+});
+$("#CloseId1").click(function () {
+    $("#msgId1").hide();
+});
+//contact page End
 });
