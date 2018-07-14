@@ -84,16 +84,15 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .sidenav { height: 100%; width: 0; position: fixed;  z-index: 1; top: 0; right: 0; background-color: #fff; overflow-x: hidden;transition: 0.7s;}
 .headerbox{height: 70px;  color: #000; padding-top: 65px; padding-left: 35px; font-size: 1.5em;}
 .ua-list{margin-top: 35px; cursor: pointer;}
-.sidenav  li { padding: 8px 8px 8px 35px;text-decoration: none; color: #000; display: block; transition: 0.3s; font-size: 1.1em;}
-.sidenav li:hover { color: red;}
+.ua-list  li { padding: 8px 8px 8px 35px;text-decoration: none; color: #000; display: block; transition: 0.3s; font-size: 1.1em;}
+.ua-list li:hover { color: red;}
 .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 40px; margin-left: 50px; cursor: pointer; color: #000;}
 .navstyle{font-size:30px;cursor:pointer; right:13px; position: absolute; top: 0px; padding-top: 10px; padding-right: 70px;}
-.followus{padding: 35px 8px 8px 35px; font-size: 1.3em;}
-.menu ul li {padding: 7px 0;}
-ul, li {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+.b-line{ border-bottom: 1px solid; margin: 25px;}
+.followus{padding: 0px 8px 8px 35px; font-size: 1.3em;}
+.ua-social-icons{ margin-left: 32px;}
+.ua-social-icons li { padding-top: 30px; margin-right: 20px; display: inline-block;}
+.ua-social-icons li:hover { color: red;}
 }
 @media screen and (max-height: 450px) {
   
@@ -105,7 +104,7 @@ ul, li {
 .header{background: #fff; height: 70px; width: 100%; position: fixed; z-index: 9;}
 .leftside-container{float: left; max-width: 60%;}
 .sideimg{padding: 10px; float: left;}
-.logoimage{ height: 50px; margin-left: 40px; }
+.logoimage{ margin-left: 40px; width: 125px;}
 .home{font-size: 1em; color: #bb2121; float: left; padding: 23px;}
 .contact{font-size: 1em; float: left; padding: 23px;}
 .rightside-container{max-width: 40%; float: right;}
@@ -141,7 +140,7 @@ ul, li {
 .color{color: #fff;}
 ul, li { padding: 0; margin: 0; list-style-type: none;}
 ul.social-icons li {color: #fff; padding-top: 30px;  margin-right: 20px; display: inline-block;}	
-.copyright{border-top: 1px solid; padding-top: 20px; margin-top: 30px; padding-bottom: 10px;}
+.copyright{border-top: 1px solid; padding-top: 20px; margin-top: 30px; padding-bottom: 10px; }
 /* home page end */
 
 /* services page start*/
