@@ -140,15 +140,15 @@ $("#listId3").click(function () {
 $("#listId4").click(function () {
     $("#menu4").hide();
 });
-$(".overlay").hide();
+$(".overlay1").hide();
 $("#confirmId").click(function () {
-    $(".overlay").show();
+    $(".overlay1").show();
 });
 $("#CloseId").click(function () {
-    $(".overlay").hide();
+    $(".overlay1").hide();
 });
 $("#okId").click(function () {
-    $(".overlay").hide();
+    $(".overlay1").hide();
 });	
 $("#msgId").hide();
 $("#confirmId").click(function () {
