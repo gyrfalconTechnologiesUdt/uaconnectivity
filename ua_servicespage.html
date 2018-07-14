@@ -3,8 +3,8 @@
     <head>
         <title>UA Connectivity</title>
         <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link type="text/css" rel="stylesheet" href="css/fontawesome-all.css">
-		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 		<link type="text/css" rel="stylesheet" href="css/common.css">
         <script type="text/javascript" src= "js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
@@ -22,40 +22,51 @@
 		<div class ="dropdown">
 			<select class ="list" id="listId1">
 			  <option value="menu" selected id="menu1">Select Hospital</option>
-			  <option>PSG</option>
-			  <option>GH</option>
-			  <option>KMCH</option>
-			  <option>Ramakrishna</option>
+			  <option>UKPM Hospital</option>
+			  <option>Sivakani Hospital</option>
+			  <option>chakra Hospital</option>
+			  <option>GV Clinic</option>
 			</select>
         </div>			
 		<div class ="dropdown">
 			<select class ="list" id="listId2">
-			  <option value="menu" selected id="menu2">Select Specialist Name</option>
-			  <option>PSG</option>
-			  <option>GH</option>
-			  <option>KMCH</option>
-			  <option>Ramakrishna</option>
+			  <option value="menu" selected id="menu2">Select Specialist</option>
+			  <option>Rhuamatology</option>
+			  <option>Cardiologist</option>
+			  <option>Gynecologist</option>
+			  <option>Diabetes & Cardiologist</option>
 			</select>
         </div>
 		<div class ="dropdown">		
 			<select class ="list" id="listId3">
 			  <option value="menu" selected id="menu3">Select Doctor Name</option>
-			  <option>Aravindh</option>
-			  <option>Aishwarya</option>
-			  <option>Naveen</option>
-			  <option>Ramakrishnan</option>
+			  <option>Dr.Shajahan</option>
+			  <option>Dr.Sivakani</option>
+			  <option>Dr.Ashok</option>
+			  <option>Dr.Jayaprakash</option>
 			</select>
         </div>
 		<div class ="dropdown">		
 			<select class ="list" id="listId4">
-			  <option value="menu" selected id="menu4">Select Date/Time</option>
+			  <option value="menu" selected id="menu4">Select Date/Time</option> 
 			</select>
+        </div>
+		<div class ="box1"></div>
+		<div class="box2"></div>
+		<div class="from">From</div>
+		<div class="to">To</div>
+		<div class="button">
+			<div class="confirmbtn" id="confirmId">Confirm</div>
 		</div>
-		<div class="from"></div>
-		<div class="to"></div>
-		<div class="login">
-				<button type="submit">Confirm</button>
+		<div class ="popup" id="msgId">
+			<img src="img/close.png" class="close" id="CloseId">
+			<div class ="msg">
+				<div class>Congratulations</div>
+				<div class="text">Your Request is placed Successfully</div>
+			</div>
+			<div class ="ok" id ="okId">Ok</div>
 		</div>
+		<div class="overlay"></div>
 	</div>
 </body>
 </html>		

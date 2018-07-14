@@ -16,7 +16,12 @@ $("#singnupId").click(function(){
 $("#passwordId").click(function(){
     window.location.href = "ua_forgotpassword.html";	
 });
-
+$("#loginId").click(function(){
+    window.location.href = "ua_homepage.html";	
+});
+$("#registerId").click(function(){
+    window.location.href = "ua_login.html";	
+});
 
 //Redirect page End
 	
@@ -121,6 +126,8 @@ $("#emailIdinput input").blur(function(e){
 		
 	}
 });	
+
+//service page start
 $("#listId1").click(function () {
     $("#menu1").hide();
 });
@@ -133,5 +140,25 @@ $("#listId3").click(function () {
 $("#listId4").click(function () {
     $("#menu4").hide();
 });
-
+$(".overlay").hide();
+$("#confirmId").click(function () {
+    $(".overlay").show();
+});
+$("#CloseId").click(function () {
+    $(".overlay").hide();
+});
+$("#okId").click(function () {
+    $(".overlay").hide();
+});	
+$("#msgId").hide();
+$("#confirmId").click(function () {
+    $("#msgId").show();
+});
+$("#okId").click(function () {
+    $("#msgId").hide();
+});
+$("#CloseId").click(function () {
+    $("#msgId").hide();
+});
+//service page End
 });

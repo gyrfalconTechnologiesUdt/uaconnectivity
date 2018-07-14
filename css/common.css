@@ -1,4 +1,4 @@
-body,html{margin 0, padding 0}
+body,html{margin: 0; padding: 0;}
 body{
 	background-color: #e7e7e7;
 	background-attachment: fixed;
@@ -15,9 +15,9 @@ body{
 .socialMediaicons{margin-top: 20px; margin-left: 75px; text-align: center;}
 .social	{float: left; background: #b40707; color: #fff; width: 13%; text-align: center; border-radius: 50px; height: 38px; padding-top: 8px; margin-left: 25px;}
 .or{margin-top: 71px; margin-left: 171px;}
-button {color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; margin-left: 65px; border: none; cursor: pointer;}
+.login{color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; margin-left: 65px; border: none; cursor: pointer;}
 
-/* email start*/
+/*email strt*/
 .username{position: relative; margin-top: 30px;}
 .username label{color: rgb(188,188,188);position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .userNameLbl{top: -25px !important; font-size: 0.80em !important; color: #000 !important;}
@@ -26,9 +26,9 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .fa{color: rgb(188,188,188); position: relative; top: 0px; transition: 0.5s; pointer-events: none; }
 .emailIcon{top: -25px !important; font-size: 0.80em !important; color: #000 !important; transition: 0.5s;}
 .bottomline{width: 100%; line-height: 1.5; color: rgb(188,188,188); }
-/* email end*/
+/*email end*/
 
-/* password start*/
+/*password start*/
 .password{position: relative; margin-top: 30px;}
 .password label{color: rgb(188,188,188);position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .passwordLbl{top: -25px !important; font-size: 0.80em !important; color: #000 !important;}
@@ -42,18 +42,10 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 /*footer start*/
 .footer{margin-left: 93px;}
 .signup{color: #b40707; cursor: pointer;}
-/*foooter end*/
-
-/*reset password start*/
-.mail {position: relative; margin-top: 40px;}
-.mailLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
-.mail  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
-.mail input[type=text]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
-.nxtbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #b40707;   line-height: 2.2em;   color: #fff;
-    border-radius: 7px; border: none; cursor: pointer;}
-.logo{height: 50px;}
-.b-Line{width: 100%;}
-/*rest password end*/
+/*footer end*/
+@media only screen and (max-width: 767px){
+}
+/*login container End*/
 
 /* register page start*/
 .cPasswordLbl{top: -25px !important; font-size: 0.80em !important; color: #000 !important;}
@@ -69,7 +61,7 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .contNoLbl{top: -25px !important; font-size: 0.80em !important; color: #000 !important;}
 .contactno input[type=text]:focus:not([readonly])+label{ color: #b40707; }
 .contactno input[type=text]{border: 0;outline: 0;background: transparent; border-bottom: 1px solid rgb(188,188,188); color: #000;}
-.register {color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 18px;}
+.register {color: #fff; font-family: open sans semi-bold; cursor: pointer; background-color: #b40707; margin: 40px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 18px;}
 
 @media only screen and (max-width: 320px) {
 
@@ -81,6 +73,7 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .mailLbl{top: -25px !important; color: #2a3746 !important; font-size: 0.80em !important;}
 .mail  label{	color: rgb(188,188,188) ; position: absolute; top: 0px; transition: 0.5s; pointer-events: none;}
 .mail input[type=text]	{background: transparent; border: 0; outline: 0;  border-bottom: 1px solid rgb(188,188,188);	}
+.signinTxt{margin-top: 20px;}
 .nxtbtn{ text-align: center; width: 230px;    height: 40px;    margin: 40px auto;    background: #b40707;   line-height: 2.2em;   color: #fff;
     border-radius: 7px; border: none; cursor: pointer;}
 .logo{width: 100px; height: 50px;}
@@ -136,7 +129,25 @@ ul.social-icons li {color: #fff; padding-top: 30px;  margin-right: 20px; display
 .conimg{height: 40px; float: right; margin-right: 15px;}
 .list{width: 250px; height: 30px; background-color: #e7e7e7;}
 .dropdown{text-align: center; margin-top: 15px;}
-.from{width: 134px; height: 50px; border: 1px solid;}
-.to{width: 134px; height: 50px; border: 1px solid;}
+.box1{width: 118px; float: left; height: 50px; border: 1px solid; margin-left: 558px; margin-top: 15px;}
+.box2{width: 118px; height: 50px; border: 1px solid; margin-left: 688px; margin-top: 15px;}
+.from{float: left; margin-left: 599px;}
+.to{margin-left: 743px;}
+.button{text-align: center;}
+.confirmbtn{color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 15px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; border: none; cursor: pointer;}
+.popup{width: 38%; height: 200px; background-color: #fff; z-index: 999; border: 1px solid #00000069; position: fixed; left: 30%; right: 10%; top: 220px; text-align: center; box-shadow: 2px 2px 2px 2px #564a4a91;}
+.msg{text-align:center; padding-top: 55px;}
+.ok{text-align: center; width: 50px; height: 40px; cursor: pointer; background:#b40707; line-height: 2.6em; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}
+.close{padding: 10px;}
+.text{margin-top: 15px; font-size: 1.2em;}
+.overlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); cursor: pointer;}
+@media only screen and (max-width: 757px){
+	.popup{width: 50%; height: 250px; left: 25%; top: 190px;}
+	.box1{margin-left: 51px;}
+	.box2{margin-left: 183px;}
+	.from{margin-left: 90px;}
+	.to{margin-left: 230px;}
+}
+
 /* service page End*/
 
