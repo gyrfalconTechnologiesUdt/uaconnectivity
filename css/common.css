@@ -101,6 +101,7 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 /* menu page end*/	
 
 /* home page start */
+.ua-homepage-container{margin: 0 auto;}
 .header{background: #fff; height: 70px; width: 100%; position: fixed; z-index: 9;}
 .leftside-container{float: left; max-width: 60%;}
 .sideimg{padding: 10px; float: left;}
@@ -116,7 +117,9 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .bannertxt{font-size: 5em; color: #fff; position: absolute; top: 200px; left: 15%;}
 .bannerbottomtxt{color: #fff; position: absolute; top: 480px; left: 28%; font-size: 2em;}
 .middle-container{width: 100%;}
-.left, .cnter, .right{width: 33.3%; height: 200px; background: #ff1313db; float: left; text-align: center;}
+.left {width: 33.3%; height: 200px; background: #f53249; float: left; text-align: center;}
+.cnter{width: 33.3%; height: 200px; background: #f31731; float: left; text-align: center;} 
+.right{width: 33.3%; height: 200px; background: #c00017; float: left; text-align: center;}
 .leftsidetxt, .cnterdetxt, .rightsidetxt{color: #fff; font-size: 2.2em; margin-top: 20px;}
 .readbox{width: 45%; margin: 35px auto;}
 .readmore{ height: 40px; border: 2px solid; line-height: 2.2em; color: #fff; }
