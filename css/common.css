@@ -184,16 +184,13 @@ p{color: #777; line-height: 30px; font-size: 1em; text-align: center;}
 .navstyle1{font-size:30px;cursor:pointer; left:13px; position: absolute; top: 65px; padding-top: 10px; padding-right: 70px;}
 .b-line{ border-bottom: 1px solid; margin: 25px;}
 .followus{padding: 0px 8px 8px 35px; font-size: 1.3em;}
-.ua-social-icons{ margin-left: 32px;}
-.ua-social-icons li { padding-top: 30px; margin-right: 20px; display: inline-block;}
-.ua-social-icons li:hover { color: red;}
-
 @media only screen and (max-width: 757px){
 	.popup{width: 50%; height: 250px; left: 25%; top: 190px;}
 	.fromloc{margin-left: 75px;}
 	.toloc{margin-left: 22px;}
 	.from{margin-left: 100px;}
 	.to{margin-left: 250px;}
+	.home1, .contact1{display: none;}
 }
 /* service page End*/
 
@@ -213,16 +210,9 @@ p{color: #777; line-height: 30px; font-size: 1em; text-align: center;}
 .emailtxt{font-weight: bold; margin-top: 20px;}
 .call{font-weight: bold; margin-top: 20px;}
 .map, .address, .callimg{float: left; height: 20px;}
-.footerimage{margin-top: 10px;}
-.footer-content{position: absolute; top: 90px; margin-left: 40px; width: 33.3333%;}
-.overlay2{position: absolute; left: 0; top: 85px; width: 100%;  height: 600px; background-color: rgba(20,20,20, 0.9);}
-.b-log-img{float: left;}
-.adres-area{margin-left: 100px;color: #777; line-height: 30px;  font-size: 1.2em;
-    margin-top: 110px;}
-.m-area{margin-left: 100px; color: #777; line-height: 30px;  font-size: 1.2em;
-    margin-top: 20px;}
-.calling-area{margin-left: 100px; color: #777; line-height: 30px;  font-size: 1.2em;
-    margin-top: 20px;}
-.social-icons{margin-left: 100px;}
+.popmsg{width: 38%; height: 200px; background-color: #fff; z-index: 999; border: 1px solid #00000069; position: fixed; left: 30%; right: 10%; top: 220px; text-align: center; box-shadow: 2px 2px 2px 2px #564a4a91;}
+.msg1{text-align:center; padding-top: 55px;}
+.ok1{text-align: center; width: 50px; height: 40px; cursor: pointer; background:#b40707; line-height: 2.6em; color: #fff; border: none; margin: 0 auto; margin-top: 5px;}
+.close1{padding: 10px;}
 
 /* contact page End*/
