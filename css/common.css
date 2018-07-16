@@ -93,7 +93,7 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .ua-social-icons{ margin-left: 32px;}
 .ua-social-icons li { padding-top: 30px; margin-right: 20px; display: inline-block;}
 .ua-social-icons li:hover { color: red;}
-}
+
 @media screen and (max-height: 450px) {
   
 }
@@ -139,7 +139,7 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .adress-area,.mail-area, .cl-area{color: #777;line-height: 30px; margin: 0 0 15px;  font-size: 1.2em;}
 .color{color: #fff;}
 ul, li { padding: 0; margin: 0; list-style-type: none;}
-ul.social-icons li {color: #fff; padding-top: 30px;  margin-right: 20px; display: inline-block;}	
+ul.social-icons1 li {color: #fff; padding-top: 30px;  margin-right: 20px; display: inline-block;}	
 .copyright{border-top: 1px solid; padding-top: 20px; margin-top: 30px; padding-bottom: 10px; }
 /* home page end */
 
@@ -149,11 +149,11 @@ ul.social-icons li {color: #fff; padding-top: 30px;  margin-right: 20px; display
 .contactimg{height: 40px; float: right; margin-right: 15px;}
 .list{width: 250px; height: 30px; background-color: #e7e7e7;}
 .dropdown{text-align: center; margin-top: 15px;}
-.box1{ float: left; margin-left: 557px; margin-top: 15px;}
-.box2{ margin-left: 700px; margin-top: 15px;}
+.box1{ float: left; margin-left: 515px; margin-top: 15px;}
+.box2{ margin-left: 654px; margin-top: 15px;}
 .fromloc , .toloc{width: 112px;}
-.from{float: left; margin-left: 599px;}
-.to{margin-left: 745px;}
+.from{float: left; margin-left: 560px;}
+.to{margin-left: 705px;}
 .button{text-align: center;}
 .confirmbtn{color: #fff; font-family: open sans semi-bold; background-color: #b40707; margin: 15px auto; width:250px; height: 40px; line-height: 2.2em; border-radius: 7px; text-align: center; font-size: 1.2em; border: none; cursor: pointer;}
 .popup{width: 38%; height: 200px; background-color: #fff; z-index: 999; border: 1px solid #00000069; position: fixed; left: 30%; right: 10%; top: 220px; text-align: center; box-shadow: 2px 2px 2px 2px #564a4a91;}
@@ -162,12 +162,25 @@ ul.social-icons li {color: #fff; padding-top: 30px;  margin-right: 20px; display
 .close{padding: 10px;}
 .text{margin-top: 15px; font-size: 1.2em;}
 .overlay1 { position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); cursor: pointer;}
+
+.sidenav1 { height: 100%; width: 0; position: fixed;  z-index: 1; top: 0; left: 0; background-color: #fff; overflow-x: hidden;transition: 0.7s;}
+.headerbox{height: 70px;  color: #000; padding-top: 65px; padding-left: 35px; font-size: 1.5em;}
+.ua-list{margin-top: 35px; cursor: pointer;}
+.ua-list  li { padding: 8px 8px 8px 35px;text-decoration: none; color: #000; display: block; transition: 0.3s; font-size: 1.1em;}
+.ua-list li:hover { color: red;}
+.sidenav1 .closebtn { position: absolute; top: 0; right: 25px; font-size: 40px; margin-left: 50px; cursor: pointer; color: #000;}
+.navstyle1{font-size:30px;cursor:pointer; left:13px; position: absolute; top: 65px; padding-top: 10px; padding-right: 70px;}
+.b-line{ border-bottom: 1px solid; margin: 25px;}
+.followus{padding: 0px 8px 8px 35px; font-size: 1.3em;}
+.ua-social-icons{ margin-left: 32px;}
+.ua-social-icons li { padding-top: 30px; margin-right: 20px; display: inline-block;}
+.ua-social-icons li:hover { color: red;}
 @media only screen and (max-width: 757px){
 	.popup{width: 50%; height: 250px; left: 25%; top: 190px;}
-	.box1{margin-left: 82px;}
-	.box2{margin-left: 220px;}
-	.from{margin-left: 120px;}
-	.to{margin-left: 270px;}
+	.box1{margin-left: 60px;}
+	.box2{margin-left: 197px;}
+	.from{margin-left: 100px;}
+	.to{margin-left: 245px;}
 }
 /* service page End*/
 
@@ -179,14 +192,22 @@ ul.social-icons li {color: #fff; padding-top: 30px;  margin-right: 20px; display
 .contact-container{width: 100%;}
 .contacttxt{text-align: center; font-weight: bold;}
 .style{color: #bb2121;}
-.leftlist{width: 50%; float: left;}
-.fieldbox{height: 40px;}
-.msgbox{height: 50px;}
+.leftlist{width: 30%; float: left; }
+.fieldbox{height: 40px; margin-left: 10px; margin-top: 10px;}
+.msgbox{height: 50px; margin-left: 10px; margin-top: 10px;}
 .send{color: #fff; font-family: open sans semi-bold; cursor: pointer; background-color: #b40707; margin: 40px auto; width:150px; height: 40px; line-height: 2.2em; text-align: center; font-size: 18px;}
 .branch{font-weight: bold;}
 .emailtxt{font-weight: bold; margin-top: 20px;}
 .call{font-weight: bold; margin-top: 20px;}
 .map, .address, .callimg{float: left; height: 20px;}
-.footer-content{position: absolute; top: 38px; margin-left: 40px; width: 33.3333%;}
-.overlay2{position: absolute; left: 0; top: 26px; width: 100%;  height: 600px; background-color: rgba(20,20,20, 0.9);}
+.footer-content{position: absolute; top: 150px; margin-left: 40px; width: 33.3333%;}
+.overlay2{position: absolute; left: 0; top: 135px; width: 100%;  height: 600px; background-color: rgba(20,20,20, 0.9);}
+.b-log-img{float: left;}
+.adres-area{margin-left: 100px;color: #777; line-height: 30px;  font-size: 1.2em;
+    margin-top: 110px;}
+.m-area{margin-left: 100px; color: #777; line-height: 30px;  font-size: 1.2em;
+    margin-top: 20px;}
+.calling-area{margin-left: 100px; color: #777; line-height: 30px;  font-size: 1.2em;
+    margin-top: 20px;}
+.social-icons{margin-left: 100px;}
 /* contact page End*/

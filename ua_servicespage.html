@@ -16,6 +16,44 @@
 		<div class="uaimage">
 			<img src="img/logo.png" class="logo">
 		</div>
+		<div id="mySidenav1" class="sidenav1">
+				<div class="box1">
+					<div class="closebtn" onclick="closeNav()">&times;</div>	
+				</div>
+				<div class="headerbox">UA Connectivity</div>
+				<div class="ua-list">	
+				<ul>
+					<li><div id="">Home</div></li>
+					<li><div id="">About</div></li>
+					<li><div id="">Overview</div></li>
+					<li><div id="">How its work</div></li>
+					<li><div id="">services</div></li>
+					<li><div id="">Contact us</div></li>
+				</ul>	
+				</div>
+				<div class="b-line"></div>
+				<div class="followus">Follow us</div>
+					<div class="ua-social-icons">
+					<ul>
+						<li><i class="fa fa-facebook" href=""></i></li>
+						<li><i class="fa fa-twitter" href=""></i></li>
+						<li><i class="fa fa-google" href=""></i></li>
+						<li><i class="fa fa-linkedin" href=""></i></li>
+						<li><i class="fa fa-flickr" href=""></i></li>
+						<li><i class="fa fa-rss" href=""></i></li>	
+					</ul>
+					</div>
+			</div>
+		<span class="navstyle1" onclick="openNav()">&#9776; </span>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav1").style.width = "350px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav1").style.width = "0";
+			}
+			</script>
 		<div class ="text">Hospital Services
 		<img src="img/contactimg.png" class="contactimg">
 		</div>
