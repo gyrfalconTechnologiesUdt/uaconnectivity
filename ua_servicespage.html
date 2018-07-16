@@ -2,9 +2,8 @@
 <html>
     <head>
         <title>UA Connectivity</title>
-        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link type="text/css" rel="stylesheet" href="css/fontawesome-all.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">		
+		<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
 		<link type="text/css" rel="stylesheet" href="css/common.css">
         <script type="text/javascript" src= "js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src= "js/bootstrap.min.js"></script>		
@@ -57,6 +56,7 @@
 		<div class ="text">Hospital Services
 		<img src="img/contactimg.png" class="contactimg">
 		</div>
+		<div class="service-list">
 		<div class ="dropdown">
 			<select class ="list" id="listId1">
 			  <option value="menu" selected id="menu1">Select Hospital</option>
@@ -84,22 +84,22 @@
 			  <option>Dr.Jayaprakash</option>
 			</select>
         </div>
+
 		<div class ="dropdown">		
 			<select class ="list" id="listId4">
 			  <option value="menu" selected id="menu4">Select Date/Time</option> 
+			  
 			</select>
         </div>
-		<div class="box1">
+		<form>
 			<input type="text" class ="fromloc">
-		</div>
-		<div class ="box2">
 			<input type="text" class="toloc">
-		</div>
-		
+		</form>
 		<div class="from">From</div>
 		<div class="to">To</div>
 		<div class="button">
 			<div class="confirmbtn" id="confirmId">Confirm</div>
+		</div>
 		</div>
 		<div class ="popup" id="msgId">
 			<img src="img/close.png" class="close" id="CloseId">
@@ -110,6 +110,7 @@
 			<div class ="ok" id ="okId">Ok</div>
 		</div>
 		<div class="overlay1"></div>
+
 	</div>
 </body>
 </html>		

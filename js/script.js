@@ -175,4 +175,10 @@ $("#CloseId1").click(function () {
     $("#msgId1").hide();
 });
 //contact page End
+
+
+
+
+
+
 });
