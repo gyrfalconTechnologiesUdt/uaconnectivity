@@ -175,4 +175,47 @@ $("#CloseId1").click(function () {
     $("#msgId1").hide();
 });
 //contact page End
+
+
+//home page start
+$("#fblinkid").click(function(){
+    window.location.href = "http://www.facebook.com/";	
+});
+$("#googleplusId").click(function(){
+    window.location.href = "https://plus.google.com/";	
+});
+$("#twiterId").click(function(){
+    window.location.href = "http://www.twitter.com/";	
+});
+$("#linkdinlink").click(function(){
+    window.location.href = "https://www.linkedin.com/";	
+});
+$("#flickerlink").click(function(){
+    window.location.href = "https://www.flickr.com/";	
+});
+$("#servicelink").click(function(){
+    window.location.href = "ua_servicespage.html";	
+});
+$("#contactpagelink").click(function(){
+    window.location.href = "ua_contact.html";	
+});
+	// footer link start
+$("#fbid").click(function(){
+    window.location.href = "http://www.facebook.com/";	
+});
+$("#googleId").click(function(){
+    window.location.href = "https://plus.google.com/";	
+});
+$("#twitId").click(function(){
+    window.location.href = "http://www.twitter.com/";	
+});
+$("#linkdinid").click(function(){
+    window.location.href = "https://www.linkedin.com/";	
+});
+$("#flickerid").click(function(){
+    window.location.href = "https://www.flickr.com/";	
+});
+//home page end
+
+
 });

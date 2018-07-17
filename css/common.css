@@ -106,11 +106,11 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .leftside-container{float: left; max-width: 60%;}
 .sideimg{padding: 10px; float: left;}
 .logoimage{ margin-left: 40px; width: 125px;}
-.home{font-size: 1em; color: #bb2121; float: left; padding: 23px;}
-.contact{font-size: 1em; float: left; padding: 23px;}
+.home{font-size: 1em; color: #bb2121; float: left; padding: 23px; cursor: pointer;}
+.contact{font-size: 1em; float: left; padding: 23px; cursor: pointer;}
 .rightside-container{max-width: 40%; float: right;}
-.help{padding: 23px;  float: right; }
-.joinbox{float: right; padding: 15px;}
+.help{padding: 23px;  float: right; cursor: pointer;}
+.joinbox{float: right; padding: 15px; cursor: pointer;}
 .join{height: 40px; border: 1px solid;  margin-right: 130px; background: #bb2121; width: 100px; text-align: center; padding: 8px; color: #fff;}
 .banner{position: relative;}
 .bannerimage{width: 100%; height: 100vh;}
@@ -121,12 +121,12 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 .cnter{width: 33.3%; height: 200px; background: #f31731; float: left; text-align: center;} 
 .right{width: 33.3%; height: 200px; background: #c00017; float: left; text-align: center;}
 .leftsidetxt, .cnterdetxt, .rightsidetxt{color: #fff; font-size: 2.2em; margin-top: 20px;}
-.readbox{width: 45%; margin: 35px auto;}
-.readmore{ height: 40px; border: 2px solid; line-height: 2.2em; color: #fff; }
+.readbox{width: 45%; margin: 35px auto; cursor: pointer;}
+.readmore{ height: 40px; border: 2px solid; line-height: 2.2em; color: #fff; cursor: pointer;}
 .bottom-container{width: 100%;}
 .bottom-containerleft{width: 70%; float: left; }
 .b-txt{font-size: 2em;  margin-left: 40px;}
-.readmorebox{width: 15%; margin: 35px auto;}
+.readmorebox{width: 15%; margin: 35px auto; cursor: pointer;}
 .read{color: #fff; font-family: open sans semi-bold; background-color: #b40707;  height: 40px; line-height: 2.2em; text-align: center; font-size: 18px; cursor: pointer;}
 .bottom-containerright{}
 .aboutimg{  width: 200px;  margin-left: 50px;}
