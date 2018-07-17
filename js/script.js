@@ -22,6 +22,15 @@ $("#loginId").click(function(){
 $("#registerId").click(function(){
     window.location.href = "ua_login.html";	
 });
+$("#homepageId").click(function(){
+    window.location.href = "ua_homepage.html";	
+});
+$("#homepagelinkId").click(function(){
+    window.location.href = "ua_homepage.html";	
+});
+$("#contactpagelinkId").click(function(){
+    window.location.href = "ua_contact.html";	
+});
 
 //Redirect page End
 	
@@ -174,6 +183,16 @@ $("#okId1").click(function () {
 $("#CloseId1").click(function () {
     $("#msgId1").hide();
 });
+$(".overlay3").hide();
+$("#sendId").click(function () {
+    $(".overlay3").show();
+});
+$("#CloseId1").click(function () {
+    $(".overlay3").hide();
+});
+$("#okId1").click(function () {
+    $(".overlay3").hide();
+});	
 //contact page End
 
 
