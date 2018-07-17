@@ -188,7 +188,7 @@ $("#twiterId").click(function(){
     window.location.href = "http://www.twitter.com/";	
 });
 $("#linkdinlink").click(function(){
-    window.location.href = "https://www.linkedin.com/";	
+    window.location.href = "https://www.linkedin.com/";
 });
 $("#flickerlink").click(function(){
     window.location.href = "https://www.flickr.com/";	
@@ -214,6 +214,9 @@ $("#linkdinid").click(function(){
 });
 $("#flickerid").click(function(){
     window.location.href = "https://www.flickr.com/";	
+});
+$("#contactid").click(function(){
+    window.location.href = "ua_contact.html";	
 });
 //home page end
 
