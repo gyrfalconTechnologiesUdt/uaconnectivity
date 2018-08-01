@@ -100,64 +100,30 @@ input:focus{border-bottom: 2px solid #000 !important; font-size: 0.80em !importa
 
 /* menu page end*/	
 
-/* home page start */
-.ua-homepage-container{margin: 0 auto;}
-.header{background: #fff; height: 70px; width: 100%; position: fixed; z-index: 9;}
+/* dashboard page start */
+.ua-dashboard-container{width: 360px; margin: 0 auto;}
+.header{background: #fff; height: 70px; width: 360px; position: fixed; z-index: 9;}
 .leftside-container{float: left; max-width: 60%;}
 .sideimg{padding: 10px; float: left;}
-.logoimage{ margin-left: 40px; width: 125px;}
-.home{font-size: 1em; color: #bb2121; float: left; padding: 23px; cursor: pointer;}
-.contact{font-size: 1em; float: left; padding: 23px; cursor: pointer;}
+.logoimage{ margin-left: 5px; width: 125px;}
 .rightside-container{max-width: 40%; float: right;}
-.help{padding: 23px;  float: right; cursor: pointer;}
-.joinbox{float: right; padding: 15px; cursor: pointer;}
-.join{height: 40px; border: 1px solid;  margin-right: 130px; background: #bb2121; width: 100px; text-align: center; padding: 8px; color: #fff;}
 .banner{position: relative;}
-.bannerimage{width: 100%; height: 100vh;}
-.bannertxt{font-size: 5em; color: #fff; position: absolute; top: 200px; left: 15%;}
-.bannerbottomtxt{color: #fff; position: absolute; top: 480px; left: 28%; font-size: 2em;}
+.bannerimage{width: 100%; height: 30vh;}
+.bannertxt{font-size: 1.5em; color: #fff; position: absolute; top: 70px; left: 13%;}
+.bannerbottomtxt{color: #fff; position: absolute; top: 150px; left: 10%; }
 .middle-container{width: 100%;}
-.left {width: 33.3%; height: 200px; background: #f53249; float: left; text-align: center;}
-.cnter{width: 33.3%; height: 200px; background: #f31731; float: left; text-align: center;} 
-.right{width: 33.3%; height: 200px; background: #c00017; float: left; text-align: center;}
-.leftsidetxt, .cnterdetxt, .rightsidetxt{color: #fff; font-size: 2.2em; margin-top: 20px;}
-.readbox{width: 45%; margin: 35px auto; cursor: pointer;}
-.readmore{ height: 40px; border: 2px solid; line-height: 2.2em; color: #fff; cursor: pointer;}
-.bottom-container{width: 100%;}
-.bottom-containerleft{width: 70%; float: left; }
-.b-txt{font-size: 2em;  margin-left: 40px;}
-.readmorebox{width: 15%; margin: 35px auto; cursor: pointer;}
-.read{color: #fff; font-family: open sans semi-bold; background-color: #b40707;  height: 40px; line-height: 2.2em; text-align: center; font-size: 18px; cursor: pointer;}
-.bottom-containerright{}
-.aboutimg{  width: 200px;  margin-left: 50px;}
-.ua-footer{position: relative;}
-.footerimage{background-attachment: fixed; height: 600px; width: 100%; }
-.overlay{position: absolute; left: 0; top: 0; width: 100%;  height: 600px; background-color: rgba(20,20,20, 0.9);}
-.ua-footer-container{top: 0; margin-left: 40px; width: 33.3333%;}
-.firstline{color: #777;line-height: 30px; margin: 0 0 15px; padding-top: 20px; padding-bottom: 20px; font-size: 1.2em;}
-.highlight{color: #c00017; }
-.adress-area,.mail-area, .cl-area{color: #777;line-height: 30px; margin: 0 0 15px;  font-size: 1.2em;}
-.color{color: #fff;}
+.left {width: 50%; float: left;}
+.ambulanceimg{width: 150px; height: 150px; margin-top: 10px; margin-left: 10px;}
+.right{width: 50%; float: left;}
+.service{height: 150px; width: 150px; margin-top: 10px; margin-left: 20px;}
+.ambtxt, .hostxt{text-align: center; color: #b40707;}
+.ua-footer{position: relative; right: 25%;}
+.footer{width: 360px; height: 70px; background-color: #fff; float: left; }
+.phnimg{width: 20px; margin-top: 26px; float: left; margin-left: 120px;}
+.con{margin-top: 26px;}
 ul, li { padding: 0; margin: 0; list-style-type: none;}
 ul.social-icons1 li {color: #fff; padding-top: 30px;  margin-right: 20px; display: inline-block;}	
-.copyright{border-top: 1px solid; padding-top: 20px; margin-top: 30px; padding-bottom: 10px; }
-p{color: #777; line-height: 30px; font-size: 1em; text-align: center;}
-/* home page end */
-@media screen and (max-width: 480px) {
-.logoimage{    margin-left: 10px;}	
-.navstyle{right: 0px;}
-.home, .contact, .help, .joinbox {display: none;}
-.bannertxt{ font-size: 1.5em;  top: 260px;}
-.bannerbottomtxt{top: 430px; left: 10%; font-size: 1.1em;}
-.left, .cnter, .right{width: 100%;}
-.leftsidetxt, .rightsidetxt, .cnterdetxt{ font-size: 2em;}
-.readmorebox{width: 45%; margin: 2px auto;}
-.aboutimg { width: 270px;}
-.ua-footer-container{ width: 100%;}
-.b-txt{font-size: 1.5em;  margin-left: 20px;}
-.firstline, .adress-area,.mail-area, .cl-area{ font-size: 1em;}
-.copyright{width: 100%;}
-}
+/* dashboard page end */
 
 /* services page start*/
 .uaimage{margin-top: 15px; margin-left: 15px;}
