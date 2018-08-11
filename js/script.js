@@ -17,7 +17,7 @@ $("#passwordId").click(function(){
     window.location.href = "ua_forgotpassword.html";	
 });
 $("#loginId").click(function(){
-    window.location.href = "ua_homepage.html";	
+    window.location.href = "ua_register.html";	
 });
 $("#registerId").click(function(){
     window.location.href = "ua_login.html";	
